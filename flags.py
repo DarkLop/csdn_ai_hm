@@ -33,7 +33,7 @@ def parse_args(check=True):
     parser.add_argument('--learning_rate', type=float, default=0.001,
                         help='learning rate')
 
-    parser.add_argument("--keep_prob", type=int, default=0.5,
+    parser.add_argument("--keep_prob", type=float, default=0.5,
                         help="keep prob")
 
     parser.add_argument("--embedding_file", type=str, default=None,
